@@ -9,7 +9,7 @@ const App: React.FC = () => {
 
   return (<>
     <div className='App'>
-      <h2>React Assessment</h2>
+      <h2>Canvas 2D Draw</h2>
       <div className='image-area'>
         <ImageUpload onImageUpload={setImageURL} />
         {imageURL ? <Canvas imageURL={imageURL} /> : null}
