@@ -29,6 +29,8 @@ const ImageUpload: React.FC<ImageUploadProps> = ({ onImageUpload }) => {
                         onChange={handleImageUpload}
                     />
                 </div>
+                <p>
+                    Please upload an image from your device to get started, then draw 2D lines directly on top of it. </p>
             </div>
 
         </>
