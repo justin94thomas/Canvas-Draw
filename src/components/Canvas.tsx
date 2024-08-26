@@ -90,6 +90,7 @@ const Canvas: React.FC<CanvasProps> = ({ imageURL }) => {
                 width={window.innerWidth}
                 height={window.innerHeight}
                 style={{ position: 'absolute', top: 0, left: 0 }}
+                className='canvas-main'
                 onMouseDown={startDrawing}
                 onMouseMove={draw}
                 onMouseUp={stopDrawing}
@@ -103,6 +104,7 @@ const Canvas: React.FC<CanvasProps> = ({ imageURL }) => {
                 ref={exportCanvasRef}
                 width={window.innerWidth}
                 height={window.innerHeight}
+                className='canvas-main'
                 style={{ display: 'none', width: '100%', height: '95%', overflow: 'hidden' }} />
         </div>
     )
